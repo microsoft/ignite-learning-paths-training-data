@@ -1,5 +1,5 @@
 # Ignite Learning Paths - Modern Data Warehouse
-![Learning Path](https://img.shields.io/badge/Learning%20Path-MDW-fe5e00?logo=microsoft)  ![Session](https://img.shields.io/badge/🗣️Sessions-5-31c754)
+![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft)  ![Session](https://img.shields.io/badge/🗣️Sessions-5-31c754)
 
 Welcome!
 
