@@ -17,13 +17,13 @@ Along with the video of the presentation, this repository will link to all the a
 
 ## Sessions
 
-Here all the sessions available in the learning path **Modern Data Warehouse** (aka: **MDW**)
+Here all the sessions available in the learning path **Modern Data Warehouse** (aka: **DATA**)
 
-### [**MDW10**: Delivering the MDW with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI](./mdw10/README.md)
+### [**DATA10**: Delivering the Modern Data Warehouse with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI](./data10/README.md)
 
 In this experience, see how Azure Data Factory (ADF), Azure Databricks, and Azure SQL Data Warehouse (SQL DW) can be used together to build a modern data warehouse. Start by using Azure Data Factory (ADF) to automate the movement of data in various formats gathered from various sources, including Azure Cosmos DB, into a centralized repository, Azure Data Lake Storage Gen2 (ADLS Gen2) in this case. Then, use Azure Databricks to prepare and analyze those data, and finally write the aggregations to Azure SQL Data Warehouse (SQL DW).
 
-### [**MDW20**: Ingesting data with Azure Data Factory](./mdw20/README.md)
+### [**DATA20**: Ingesting data with Azure Data Factory](./data20/README.md)
 
 In this experience, walk through creating a pipeline copy activity to copy a file to an Azure blob storage container, so we can prepare the file to be processed later for transformation.
 
