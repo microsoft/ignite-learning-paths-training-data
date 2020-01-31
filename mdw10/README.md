@@ -1,6 +1,6 @@
-# MDW10: Delivering the MDW with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI
+# DATA10: Delivering the DATA with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI
 
-[![Learning Path](https://img.shields.io/badge/Learning%20Path-MDW-fe5e00?logo=microsoft)](https://github.com/microsoft/ignite-learning-paths-training-MDW)
+[![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft)](https://github.com/microsoft/ignite-learning-paths-training-DATA)
 
 ## Session Abstract
 
@@ -105,7 +105,7 @@ A mentor will get back to you with the information on the process.
 "/><br />
         <sub><b>Chris Testa-O'Neill
 </b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-mdw/commits?author=ctestaoneillmsft" title="talk">📢</a> 
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-data/commits?author=ctestaoneillmsft" title="talk">📢</a> 
     </td>
 </tr></table>
 
