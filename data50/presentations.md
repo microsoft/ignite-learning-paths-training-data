@@ -9,7 +9,7 @@ please contact Scott Cate
 
 # DATA50 Current Presentation Files
 
-- [data50.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data50/data50.pptx) (Updated: Jan 31, 2020)
+- [data50.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data50/data50.pptx)
 ---
 ## Historical Files
 - [data50-2020-02_Feb-02.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data50/data50-2020-02_Feb-02.pptx)

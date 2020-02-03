@@ -9,7 +9,7 @@ please contact Scott Cate
 
 # DATA10 Current Presentation Files
 
-- [data10.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data10/data10.pptx) (Updated: Jan 31, 2020)
+- [data10.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data10/data10.pptx)
 ---
 ## Historical Files
 - [data10-2020-02_Feb-02.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data10/data10-2020-02_Feb-02.pptx)

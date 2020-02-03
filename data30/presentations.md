@@ -9,7 +9,7 @@ please contact Scott Cate
 
 # DATA30 Current Presentation Files
 
-- [data30.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data30/data30.pptx) (Updated: Jan 31, 2020)
+- [data30.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data30/data30.pptx)
 ---
 ## Historical Files
 - [data30-2020-02_Feb-02.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data30/data30-2020-02_Feb-02.pptx)
