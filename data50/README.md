@@ -13,7 +13,7 @@ To ensure optimal performance of their analytics solution and deliver insights t
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
 | Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
-| Demos             | - [Demo 1 - Query Performance Tunng](demos/README.md#demo-1---optimizing-data-warehouse-performance) ] |
+| Demos             | - [Demo 1 - Query Performance Tuning](demos/README.md#demo-1---optimizing-data-warehouse-performance)  |
 
 
 ## How To Use
@@ -70,7 +70,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | ?       | [Link](/)
+|  [1 - Query Performance Tuning](demos/README.md#demo-1---Query-Performance-Tuning) | ?       | [Link](/)
 
 
 ## Become a Trained Presenter

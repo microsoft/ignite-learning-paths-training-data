@@ -13,7 +13,7 @@ Tailwind Traders data loading lends itself to a variety of data ingestion method
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
 | Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84373) |
-| Demos             | - [Demo 1 - Loading Data into Azure Synapse Analytics](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse)] |
+| Demos             | - [Demo 1 - Loading Data into Azure Synapse Analytics](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse) |
 
 
 ## How To Use
