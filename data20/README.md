@@ -1,10 +1,11 @@
-# DATA10: Delivering the DATA with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI
+# DATA20: Ingesting data for analytics workloads
 
 [![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft)](https://github.com/microsoft/ignite-learning-paths-training-DATA)
 
 ## Session Abstract
 
-In this experience, see how Azure Data Factory (ADF), Azure Databricks, and Azure SQL Data Warehouse (SQL DW) can be used together to build a modern data warehouse. Start by using Azure Data Factory (ADF) to automate the movement of data in various formats gathered from various sources, including Azure Cosmos DB, into a centralized repository, Azure Data Lake Storage Gen2 (ADLS Gen2) in this case. Then, use Azure Databricks to prepare and analyze those data, and finally write the aggregations to Azure SQL Data Warehouse (SQL DW).
+To build their analytics solution, Tailwind Traders needs to derive insights from a variety of data sources. 
+Tailwind Traders uses Azure Data Factory to create data pipelines for data ingestion in preparation for analytics. 
 
 
 ## Table of Content

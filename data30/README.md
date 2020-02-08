@@ -1,10 +1,10 @@
-# DATA10: Delivering the DATA with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI
+# DATA30: Transforming and enriching data
 
 [![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft)](https://github.com/microsoft/ignite-learning-paths-training-DATA)
 
 ## Session Abstract
 
-In this experience, see how Azure Data Factory (ADF), Azure Databricks, and Azure SQL Data Warehouse (SQL DW) can be used together to build a modern data warehouse. Start by using Azure Data Factory (ADF) to automate the movement of data in various formats gathered from various sources, including Azure Cosmos DB, into a centralized repository, Azure Data Lake Storage Gen2 (ADLS Gen2) in this case. Then, use Azure Databricks to prepare and analyze those data, and finally write the aggregations to Azure SQL Data Warehouse (SQL DW).
+Tailwind Traders, deals with the core issue of having to connect and relate multiple data sources. In order to be able to prepare the data for reasoning and analysis, data requires transformation and enrichment.
 
 
 ## Table of Content

@@ -19,15 +19,26 @@ Along with the video of the presentation, this repository will link to all the a
 
 Here all the sessions available in the learning path **Modern Data Warehouse** (aka: **DATA**)
 
-### [**DATA10**: Delivering the Modern Data Warehouse with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI](./data10/README.md)
+### [**DATA10**: Delivering a modern data warehouse](./data10/README.md)
 
-In this experience, see how Azure Data Factory (ADF), Azure Databricks, and Azure SQL Data Warehouse (SQL DW) can be used together to build a modern data warehouse. Start by using Azure Data Factory (ADF) to automate the movement of data in various formats gathered from various sources, including Azure Cosmos DB, into a centralized repository, Azure Data Lake Storage Gen2 (ADLS Gen2) in this case. Then, use Azure Databricks to prepare and analyze those data, and finally write the aggregations to Azure SQL Data Warehouse (SQL DW).
+Tailwind Traders, like many other companies is driving digital transformation to get actionable insights from their data. To drive business impact and intelligent decision making, they are taking advantage of a modern data warehouse to build a cloud-scale analytics solution. 
 
-### [**DATA20**: Ingesting data with Azure Data Factory](./data20/README.md)
+### [**DATA20**: Ingesting data for analytics workloads](./data20/README.md)
 
-In this experience, walk through creating a pipeline copy activity to copy a file to an Azure blob storage container, so we can prepare the file to be processed later for transformation.
+To build their analytics solution, Tailwind Traders needs to derive insights from a variety of data sources. 
+Tailwind Traders uses Azure Data Factory to create data pipelines for data ingestion in preparation for analytics. 
 
+### [**DATA30**: Ingesting data for analytics workloads](./data30/README.md)
 
+Tailwind Traders, deals with the core issue of having to connect and relate multiple data sources. In order to be able to prepare the data for reasoning and analysis, data requires transformation and enrichment. 
+
+### [**DATA40**: Data loading best practices](./data40/README.md)
+
+Tailwind Traders data loading lends itself to a variety of data ingestion methods, each uniquely identified by the shape or structure of the data. In this session you’ll discover data loading best practices and how to optimize for parallel loads into a cloud data warehouse.
+
+### [**DATA50**: Optimizing data warehousing query performance](./data50/README.md)
+
+To ensure optimal performance of their analytics solution and deliver insights to the entire organization, TailWind Traders implements best practices to maximize scale and throughput. 
 
 ## Contributing
 
