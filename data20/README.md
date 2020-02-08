@@ -13,8 +13,8 @@ Tailwind Traders uses Azure Data Factory to create data pipelines for data inges
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
-| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
-| Demos             | - [Demo 1 - Ingesting Data with Azure Data Factory](demos/README.md#demo-1---ingesting-data-with=datafactory)](#) |
+| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84355) |
+| Demos             | - [Demo 1 - Ingesting Data with Azure Data Factory](demos/README.md#demo-1---ingesting-data-with=datafactory)] |
 
 
 ## How To Use
@@ -72,7 +72,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1--ingesting-data-with=datafactory) | 15       | [Link](/)
+|  [1 - Ingesting Data With Azure Data Factory](demos/README.md#demo-1--ingesting-data-with=datafactory) | 15       | [Link](/)
 
 
 ## Become a Trained Presenter
@@ -80,7 +80,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 To become a trained presenter, contact [learningpathmanager@microsoft.com](mailto:learningpathmanager@microsoft.com). In your email please include:
 
 - Complete name:
-- The code of this presentation: apps10
+- The code of this presentation: DATA20
 - Link (ex: unlisted YouTube video) to a video of you presenting (~10 minutes). 
   > It doesn't need to be this content, the important is to show your presenter skills
 

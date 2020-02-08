@@ -13,7 +13,7 @@ Tailwind Traders data loading lends itself to a variety of data ingestion method
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
 | Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84373) |
-| Demos             | - [Demo 1 - Loading Data into Azure Synapse Analytics](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse)](#) |
+| Demos             | - [Demo 1 - Loading Data into Azure Synapse Analytics](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse)] |
 
 
 ## How To Use
@@ -78,7 +78,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 To become a trained presenter, contact [learningpathmanager@microsoft.com](mailto:learningpathmanager@microsoft.com). In your email please include:
 
 - Complete name:
-- The code of this presentation: apps10
+- The code of this presentation: DATA40
 - Link (ex: unlisted YouTube video) to a video of you presenting (~10 minutes). 
   > It doesn't need to be this content, the important is to show your presenter skills
 

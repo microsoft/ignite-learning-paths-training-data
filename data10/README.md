@@ -13,7 +13,7 @@ Tailwind Traders, like many other companies is driving digital transformation to
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
 | Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse)](#) |
+| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse)] |
 
 
 ## How To Use
@@ -70,7 +70,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Ingesting Data with Azure Data Factory](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](/)
+|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](/)
 
 
 ## Become a Trained Presenter
@@ -78,7 +78,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 To become a trained presenter, contact [learningpathmanager@microsoft.com](mailto:learningpathmanager@microsoft.com). In your email please include:
 
 - Complete name:
-- The code of this presentation: apps10
+- The code of this presentation: DATA10
 - Link (ex: unlisted YouTube video) to a video of you presenting (~10 minutes). 
   > It doesn't need to be this content, the important is to show your presenter skills
 

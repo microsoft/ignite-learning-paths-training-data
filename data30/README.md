@@ -13,7 +13,7 @@ Tailwind Traders, deals with the core issue of having to connect and relate mult
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
 | Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84356) |
-| Demos             | - [Demo 1 - Transforming Data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory) ](#) |
+| Demos             | - [Demo 1 - Transforming Data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory) ] |
 
 
 ## How To Use
@@ -52,7 +52,7 @@ The [slides](presentations.md) have presenter notes on each slide
 5:00 - 10:00  | What is Azure Data factory
 10:00 - 25:00 | Transforming data with the ADF Mapping Data Flow
 25:00 - 30:00 | Triggering and Monitoring
-35:00 - 40:00 | Transforming yoru data in Azure Data Factory
+35:00 - 40:00 | Transforming your data in Azure Data Factory
 40:00 - 45:00 | Session Summary
 
 ## Deployment / Preparation
@@ -78,7 +78,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 To become a trained presenter, contact [learningpathmanager@microsoft.com](mailto:learningpathmanager@microsoft.com). In your email please include:
 
 - Complete name:
-- The code of this presentation: apps10
+- The code of this presentation: DATA30
 - Link (ex: unlisted YouTube video) to a video of you presenting (~10 minutes). 
   > It doesn't need to be this content, the important is to show your presenter skills
 

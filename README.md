@@ -15,7 +15,7 @@ We're glad you are here and look forward to your delivery of this amazing conten
 
 Along with the video of the presentation, this repository will link to all the assets you need to successfully present including PowerPoint slides and demo instructions & code.
 
-## Intelligent decision making through modern data warehousing
+## About this Learning Path: Intelligent decision making through modern data warehousing
 
 Data is the greatest asset to a company in the process of intelligent decision making. 
 How is my business performing? How do I get more insights to turn from a reactive approach to a pro-active and predictive scenario? 
@@ -59,7 +59,7 @@ You don't need anything to present this content, it's all there to be used. Howe
 To become a *Trained Presenter*, contact [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). In your email please include:
 
 - Complete name:
-- The code of this presentation: \<Session Code (ex:APPS10)\>
+- The code of this presentation: \<Session Code (ex:DATA10)\>
 - Link to an unlisted YouTube video of you presenting around 10 minutes of the content for this specific session.
 
 

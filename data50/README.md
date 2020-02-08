@@ -13,7 +13,7 @@ To ensure optimal performance of their analytics solution and deliver insights t
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
 | Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
-| Demos             | - [Demo 1 - Query Performance Tunng](demos/README.md#demo-1---optimizing-data-warehouse-performance) ](#) |
+| Demos             | - [Demo 1 - Query Performance Tunng](demos/README.md#demo-1---optimizing-data-warehouse-performance) ] |
 
 
 ## How To Use
@@ -78,7 +78,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 To become a trained presenter, contact [learningpathmanager@microsoft.com](mailto:learningpathmanager@microsoft.com). In your email please include:
 
 - Complete name:
-- The code of this presentation: apps10
+- The code of this presentation: DATA50
 - Link (ex: unlisted YouTube video) to a video of you presenting (~10 minutes). 
   > It doesn't need to be this content, the important is to show your presenter skills
 
