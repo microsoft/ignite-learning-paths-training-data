@@ -12,8 +12,8 @@ Tailwind Traders, deals with the core issue of having to connect and relate mult
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
-| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) <br/>- [Demo 2 - ...](#) <br/>- [Demo 3 - ...](#) |
+| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84356) |
+| Demos             | - [Demo 1 - Transforming Data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory) ](#) |
 
 
 ## How To Use

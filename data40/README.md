@@ -1,4 +1,4 @@
-# DATA40: Dta loading best practices
+# DATA40: Data loading best practices
 
 [![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft)](https://github.com/microsoft/ignite-learning-paths-training-DATA)
 
@@ -12,8 +12,8 @@ Tailwind Traders data loading lends itself to a variety of data ingestion method
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
-| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) <br/>- [Demo 2 - ...](#) <br/>- [Demo 3 - ...](#) |
+| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84373) |
+| Demos             | - [Demo 1 - Loading Data into Azure Synapse Analytics](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse)](#) |
 
 
 ## How To Use
@@ -36,7 +36,7 @@ This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 27 slides - 30 minutes, | 1 demos - 15 minutes, | Demo Deployment
+| 27 slides - 30 minutes | 1 demos - 15 minutes | Demo Deployment
 
  [Full-length video can be viewed here](#).
 

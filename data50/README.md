@@ -12,8 +12,8 @@ To ensure optimal performance of their analytics solution and deliver insights t
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
-| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) <br/>- [Demo 2 - ...](#) <br/>- [Demo 3 - ...](#) |
+| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
+| Demos             | - [Demo 1 - Query Performance Tunng](demos/README.md#demo-1---optimizing-data-warehouse-performance) ](#) |
 
 
 ## How To Use
@@ -36,34 +36,24 @@ This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 27 slides - 30 minutes, | 1 demo - 15 minutes, | deployment
+| 27 slides - 30 minutes | 1 demo - 15 minutes | Demo Setup
 
  [Full-length video can be viewed here](#).
 
 ## Slides
 
-The [slides](presentations.md) are divided in five sections:
-
- Section                     | Slides            | Notes
----------------------------- |---------------    |------
-Introduction                 | 1-3               | 
-Why modernize                | 4-8               | 
-Solution scenarios           | 9-13              | 
-Example solution architecture| 14-25*            |
-Resource Slides, ending     | 26-34             | 
-
-*slide demo
+The [slides](presentations.md) have presenter notes on every slide
 
 ### Timing
 
 | Time        | Description 
 --------------|-------------
 0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | 
-15:00 - 20:00 | 
-20:00 - 35:00 |  
-35:00 - 40:00 | 
-40:00 - 45:00 | 
+5:00 - 10:00  | What is Azure Synapse Analytics
+10:00 - 15:00 | Maximizing Query Performance
+15:00 - 35:00 | Query Performance Tuning
+35:00 - 40:00 | Query Data Store
+40:00 - 45:00 | Session Review
 
 ## Deployment / Preparation
 
