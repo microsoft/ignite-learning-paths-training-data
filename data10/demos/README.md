@@ -9,8 +9,3 @@ The following document describe how to do all the demos presented during the ses
 > 💡 You must have completed the [deployment](../deployment/README.md) before attempting to do the demo.
 
 
-
-
----
-
-## Demo 2 - ...

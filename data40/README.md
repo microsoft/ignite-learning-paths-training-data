@@ -36,34 +36,24 @@ This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 34 slides - 30 minutes, | 1 demos - 15 minutes, | ? automated deployment
+| 27 slides - 30 minutes, | 1 demos - 15 minutes, | Demo Deployment
 
  [Full-length video can be viewed here](#).
 
 ## Slides
 
-The [slides](presentations.md) are divided in five sections:
-
- Section                     | Slides            | Notes
----------------------------- |---------------    |------
-Introduction                 | 1-3               | 
-Why modernize                | 4-8               | 
-Solution scenarios           | 9-13              | 
-Example solution architecture| 14-25*            |
-Resource Slides, ending     | 26-34             | 
-
-*slide demo
+The [slides](presentations.md) have presenter notes on each slide
 
 ### Timing
 
 | Time        | Description 
 --------------|-------------
 0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | 
-15:00 - 20:00 | 
-20:00 - 35:00 |  
-35:00 - 40:00 | 
-40:00 - 45:00 | 
+5:00 - 15:00  | What is Azure Synapse Analytics
+15:00 - 20:00 | Loading Design Goals
+20:00 - 35:00 | Loading Best Practices
+35:00 - 40:00 | Loading Data into Azure Synapse Analytics Data Warehouse
+40:00 - 45:00 | Session Summary
 
 ## Deployment / Preparation
 
@@ -80,7 +70,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | ?       | [Link](/)
+|  [1 - Loading data into Azure Synapse Analytics Data Warehouse](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse) | ?       | [Link](/)
 
 
 ## Become a Trained Presenter

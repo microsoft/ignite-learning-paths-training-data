@@ -15,6 +15,13 @@ We're glad you are here and look forward to your delivery of this amazing conten
 
 Along with the video of the presentation, this repository will link to all the assets you need to successfully present including PowerPoint slides and demo instructions & code.
 
+## Intelligent decision making through modern data warehousing
+
+Data is the greatest asset to a company in the process of intelligent decision making. 
+How is my business performing? How do I get more insights to turn from a reactive approach to a pro-active and predictive scenario? 
+TailWind Traders, is driving the digital transformation by breaking the barriers caused by data silos, and building an analytics solution. 
+In this learning path you’ll about the journey of building out an analytics solution through modern data warehousing as a core engine to provide intelligent decision making. 
+
 ## Sessions
 
 Here all the sessions available in the learning path **Modern Data Warehouse** (aka: **DATA**)

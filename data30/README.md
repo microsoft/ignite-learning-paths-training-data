@@ -42,28 +42,18 @@ This training repository is divided in to the following sections:
 
 ## Slides
 
-The [slides](presentations.md) are divided in five sections:
-
- Section                     | Slides            | Notes
----------------------------- |---------------    |------
-Introduction                 | 1-3               | 
-Why modernize                | 4-8               | 
-Solution scenarios           | 9-13              | 
-Example solution architecture| 14-25*            |
-Resource Slides, ending     | 26-34             | 
-
-*slide demo
+The [slides](presentations.md) have presenter notes on each slide
 
 ### Timing
 
 | Time        | Description 
 --------------|-------------
 0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | 
-15:00 - 20:00 | 
-20:00 - 35:00 |  
-35:00 - 40:00 | 
-40:00 - 45:00 | 
+5:00 - 10:00  | What is Azure Data factory
+10:00 - 25:00 | Transforming data with the ADF Mapping Data Flow
+25:00 - 30:00 | Triggering and Monitoring
+35:00 - 40:00 | Transforming yoru data in Azure Data Factory
+40:00 - 45:00 | Session Summary
 
 ## Deployment / Preparation
 
@@ -80,7 +70,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | ?       | [Link](/)
+|  [1 - Transforming your data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory) | ?       | [Link](/)
 
 
 ## Become a Trained Presenter
@@ -107,6 +97,9 @@ A mentor will get back to you with the information on the process.
 </b></sub></a><br />
             <a href="https://github.com/microsoft/ignite-learning-paths-training-data/commits?author=ctestaoneillmsft" title="talk">📢</a> 
     </td>
-</tr></table>
+</tr>
+
+
+</table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

@@ -36,7 +36,7 @@ This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 34 slides - 30 minutes, | 1 demos - 15 minutes, | ? automated deployment
+| 27 slides - 30 minutes, | 1 demo - 15 minutes, | deployment
 
  [Full-length video can be viewed here](#).
 
