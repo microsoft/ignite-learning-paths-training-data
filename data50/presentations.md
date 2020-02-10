@@ -13,5 +13,6 @@ please contact Scott Cate
 ---
 ## Historical Files
 - [data50-2020-02_Feb-02.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data50/data50-2020-02_Feb-02.pptx)
+- [data50-2020-02_Feb-09.pptx](https://globaleventcdn.blob.core.windows.net/assets/data/data50/data50-2020-02_Feb-09.pptx)
 
 
