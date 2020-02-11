@@ -1,0 +1,28 @@
+#Deploy Data10-azcli
+
+
+
+#Syntax
+#Enter Name of Deployment Here
+$DeploymentName='StorageAccountDeployment'
+#Enter Name of Resource Group Here
+$ResourceGroupName='RG-StorageAccount'
+#Enter Azure Region Here
+$Location='EastUS'
+#Enter Actual Path to Template File Here
+$TemplateFile='Data10-deployment.json'
+#Enter Actual Path to Parameters File Here
+$ParametersFile='Data10.parameters.json'
+#Create Resource Group
+az group create -n $ResourceGroupName -l $Location
+#Deploy Storage Account
+az group deployment create -g $ResourceGroupName -n $DeploymentName --template-file $TemplateFile --parameters $ParametersFile
+
+#Example
+$DeploymentName='StorageAccountDeployment'
+$ResourceGroupName='RG-AIRS-EUS-VMDiagnostics'
+$Location='EastUS'
+$TemplateFile='Data10-deployment.json'
+$ParametersFile='Data10.parameters.json'
+az group create -n $ResourceGroupName -l $Location
+az group deployment create -g $ResourceGroupName -n $DeploymentName --template-file $TemplateFile --parameters $ParametersFile
