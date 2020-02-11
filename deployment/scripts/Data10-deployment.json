@@ -1,0 +1,214 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "SQL_ServerName": {
+            "defaultValue": "mdw-training-xxxxxx",
+            "type": "String",
+			 "metadata": {
+      "description": "Specify a unique name for the database server"}
+		        },
+        "Server_Location": {
+            "defaultValue": "eastus",
+            "type": "String",
+			"metadata": {
+      "description": "Specify which region this server will be deployed"}
+        },
+        "administratorLogin": {
+            "type": "String",
+					"metadata": {
+      "description": "Specify which database login name"}
+        },
+        "administratorLoginPassword": {
+            "type": "SecureString"
+        },
+        "collation": {
+            "defaultValue": "SQL_Latin1_General_CP1_CI_AS",
+            "type": "String",
+						"metadata": {
+      "description": "For Collations see: https://docs.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-ver15#Collation_sets"}
+        },
+        "databaseName": {
+            "type": "String",
+					"metadata": {
+      "description": "Provide the name of the Azure Synapse DW"}
+        },
+        "skuName": {
+            "defaultValue": "DW100c",
+            "type": "String","metadata": {
+      "description": "Specify the size of the DW, do not modify for lab/demo purposes - https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/"}
+        },
+        "storageAccounts_DataLakeGen2": {
+            "defaultValue": "mdwstoragexxxxxxxx",
+            "type": "String",
+					"metadata": {
+      "description": "Provide the name for the Azure Datalake storage account"}
+        },
+        "datalakestorage_location": {
+            "defaultValue": "eastus",
+            "type": "String",
+					"metadata": {
+      "description": "Provide the region for the Azure Datalake storage account, ideally this gets provisioned in the same region and resource group as the other services"}
+        },
+	  "AzureDataFactoryName": {
+            "defaultValue": "adfmdw-xxxxxxx",
+            "type": "String",
+					"metadata": {
+      "description": "Provide a unique name for Azure Data Factory"}
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Sql/servers",
+            "apiVersion": "2017-10-01-preview",
+            "name": "[parameters('SQL_ServerName')]",
+            "location": "[parameters('Server_Location')]",
+            "kind": "v12.0",
+            "properties": {
+                "version": "12.0",
+                "collation": "[parameters('collation')]",
+                "administratorLogin": "[parameters('administratorLogin')]",
+                "administratorLoginPassword": "[parameters('administratorLoginPassword')]"
+            }
+        },
+
+
+		 {
+            "type": "Microsoft.Sql/servers/firewallRules",
+            "apiVersion": "2015-05-01-preview",
+            "name": "[concat(parameters('SQL_ServerName'), '/AllowAllWindowsAzureIps')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Sql/servers', parameters('SQL_ServerName'))]"
+            ],
+            "properties": {
+                "startIpAddress": "0.0.0.0",
+                "endIpAddress": "0.0.0.0"
+            }
+},
+        {
+            "type": "Microsoft.Sql/servers/databases",
+            "apiVersion": "2017-10-01-preview",
+            "name": "[concat(parameters('SQL_serverName'), '/', parameters('databaseName'))]",
+            "location": "[parameters('Server_Location')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Sql/servers', parameters('SQL_serverName'))]"
+            ],
+            "sku": {
+                "name": "[parameters('skuName')]",
+                "tier": "DataWarehouse",
+                "capacity": 900
+            },
+            "kind": "v12.0,user,datawarehouse,gen2",
+            "properties": {
+                "collation": "[parameters('collation')]"
+            }
+        },
+
+		
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2019-06-01",
+            "name": "[parameters('storageAccounts_DataLakeGen2')]",
+            "location": "[parameters('datalakestorage_location')]",
+            "sku": {
+                "name": "Standard_RAGRS",
+                "tier": "Standard"
+            },
+            "kind": "StorageV2",
+            "properties": {
+                "isHnsEnabled": true,
+                "networkAcls": {
+                    "bypass": "AzureServices",
+                    "virtualNetworkRules": [],
+                    "ipRules": [],
+                    "defaultAction": "Allow"
+                },
+                "supportsHttpsTrafficOnly": true,
+                "encryption": {
+                    "services": {
+                        "file": {
+                            "keyType": "Account",
+                            "enabled": true
+                        },
+                        "blob": {
+                            "keyType": "Account",
+                            "enabled": true
+                        }
+                    },
+                    "keySource": "Microsoft.Storage"
+                },
+                "accessTier": "Hot"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices",
+            "apiVersion": "2019-06-01",
+            "name": "[concat(parameters('storageAccounts_DataLakeGen2'), '/default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_DataLakeGen2'))]"
+            ],
+            "sku": {
+                "name": "Standard_RAGRS"
+            },
+            "properties": {
+                "cors": {
+                    "corsRules": []
+                },
+                "deleteRetentionPolicy": {
+                    "enabled": false
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/fileServices",
+            "apiVersion": "2019-06-01",
+            "name": "[concat(parameters('storageAccounts_DataLakeGen2'), '/default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_DataLakeGen2'))]"
+            ],
+            "sku": {
+                "name": "Standard_RAGRS"
+            },
+            "properties": {
+                "cors": {
+                    "corsRules": []
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2019-06-01",
+            "name": "[concat(parameters('storageAccounts_DataLakeGen2'), '/default/data')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccounts_DataLakeGen2'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_DataLakeGen2'))]"
+            ],
+            "properties": {
+                "publicAccess": "None"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2019-06-01",
+            "name": "[concat(parameters('storageAccounts_DataLakeGen2'), '/default/logs')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccounts_DataLakeGen2'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_DataLakeGen2'))]"
+            ],
+            "properties": {
+                "publicAccess": "None"
+            }
+        },
+		{
+            "type": "Microsoft.DataFactory/factories",
+            "apiVersion": "2018-06-01",
+            "name": "[parameters('AzureDataFactoryName')]",
+            "location": "[parameters('Server_Location')]",
+            "identity": {
+                "type": "SystemAssigned"
+            },
+            "properties": {}
+        }
+    ]
+}
