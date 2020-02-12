@@ -17,10 +17,10 @@ https://azure.microsoft.com/en-us/free?
 
 ## DATA50 Demo Automated Deployment
 
-If you have NOT completed the DATA10 deployment first - please complete the [DATA10 pre-demo deployment](\..\..\data10\deployment\README.md)
+If you have NOT completed the DATA10 deployment first - please complete the [DATA10 pre-demo deployment](../../data10/deployment/README.md)
 No additonal steps are needed.
 
 ## DATA5 Pre-requisite
 
-This demo requires that you have completed the DATA40 demo  [DATA40 Demo](\..\..\data40\demos\README.md)
+This demo requires that you have completed the DATA40 demo  [DATA40 Demo](../../data40/demos/README.md)
 No additonal steps are needed.

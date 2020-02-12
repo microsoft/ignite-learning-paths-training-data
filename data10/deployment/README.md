@@ -3,6 +3,7 @@
 ## Prerequisites
 
 - Microsoft Azure subscription
+- SQL Management Studio (install on your local machine prior to DATA30)
 
 ### Azure Subscription
 
@@ -37,6 +38,10 @@ Estimated Time: 15 minutes
 
 1. Click on the storage account and browse to Containers
 1. Capture the name of your storage acccount
+1. Capture the name of your storage acccount
+1. Expand the resource group
+1. CLick on teh SQL Data Warehouse
+1. In the SQL Data Warehouse Window, click Pause to pause the service
 
 ## Populate the Azure Storage container Azure CloudShell
 
