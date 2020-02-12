@@ -12,7 +12,7 @@ To ensure optimal performance of their analytics solution and deliver insights t
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
-| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
+| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
 | Demos             | - [Demo 1 - Query Performance Tuning](demos/README.md#demo-1---optimizing-data-warehouse-performance)  |
 
 

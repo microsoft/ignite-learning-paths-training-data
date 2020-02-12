@@ -13,7 +13,7 @@ Tailwind Traders uses Azure Data Factory to create data pipelines for data inges
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
-| Videos            | - [Dry Run Rehearsal](#) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84355) |
+| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84355) |
 | Demos             | - [Demo 1 - Ingesting Data with Azure Data Factory](demos/README.md#demo-1---ingesting-data-with=datafactory) |
 
 

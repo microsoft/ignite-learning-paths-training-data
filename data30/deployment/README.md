@@ -23,5 +23,5 @@ No additonal steps are needed.
 
 ## DATA30 Pre-requisite
 
-This demo requires that you have completed the DATA20 demo  [DATA20 Demo](../../data20/demos/demos/README.md)
+This demo requires that you have completed the DATA20 demo  [DATA20 Demo](../../data20/demos/README.md)
 No additonal steps are needed.

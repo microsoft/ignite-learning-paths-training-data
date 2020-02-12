@@ -159,7 +159,7 @@ The main tasks for this exercise are as follows:
 1. In **SQL Server Management Studio**, in Object Explorer, right click **yourdwservername.database.windows.net** and click on **New Query**.
 
 1. In **SQL Server Management Studio**, in SQL Editor toolbar, in **Available Databases**, click on **DWDB**.
-1. Download the query file or copy it's content in SQL Management Studio ![SQL Create Table Scripts file](data40\demos\CreateTables.sql)
+1. Download the query file or copy it's content in SQL Management Studio ![SQL Create Table Scripts file](../demos/CreateTables.sql)
 1. Execute the Query to create all the tables
 
 
