@@ -136,3 +136,4 @@ At this point, You have finished building your 8 transformation Mapping Data Flo
     ![Querying the results in SQL Server Management Studio](/demos/Linked_Image_Files/M07-E03-T05-img02.png)
 
 
+💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.

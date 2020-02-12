@@ -102,3 +102,4 @@ At this point, you have fully configured your copy activity. To test it out, cli
 1. To verify the copy worked as expected, open up your ADLS gen2 storage account and check to see your file was written as expected
 
 
+💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.

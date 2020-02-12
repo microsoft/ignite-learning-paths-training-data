@@ -3,7 +3,8 @@
 ## Prerequisites
 
 - Microsoft Azure subscription
-- SQL Management Studio (install on your local machine prior to DATA30)
+- SQL Management Studio (install on your local machine prior to DATA30) 
+  [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 
 
 ### Azure Subscription
 

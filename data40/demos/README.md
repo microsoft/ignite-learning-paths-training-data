@@ -308,4 +308,4 @@ The main tasks for this exercise are as follows:
     SELECT * FROM dbo.Dates;
     ```
 
-
+💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.
