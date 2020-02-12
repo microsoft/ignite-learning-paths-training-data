@@ -35,35 +35,23 @@ Estimated Time: 15 minutes
 - Azure Storage Accounts
 - Azure Data Factory
 
-1. The instructor will discuss the findings with the group.
-
-## Validate Correct provisioning of services
-
-Estimated Time: 15 minutes
- 
-1. From the Azure Portal, expand the resource group you deployed the template to and review that the following services are provisioned:
-
-- Azure Synapse Analytics (SQL Data Warehouse)
-- Azure Storage Accounts
-- Azure Data Factory
-
 1. Click on the storage account and browse to Containers
-1. Click on the data container and capture the URL from the Container properties
+1. Capture the name of your storage acccount
 
-- The URL should look similar to https://mdwstoragexxxxx.blob.core.windows.net/data
-- copy the URL
-
-## Populate the Azure Storage container through AZCOPY command
+## Populate the Azure Storage container Azure CloudShell
 
 1. In the Azure Portal, open an Azure Cloudshell window.
    Complete the configuration process as needed
 
-1. Type the following command:
+1. Type the following command to copy the deployment script to Azure Cloud Shell
 
-   Complete the configuration process as needed
+   This will copy the deployment script that will populate the Azure Data Lake Storage Containers with sample files
 
-``` 
-curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/scripts/data10-storage.azcli
-
+```curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/scripts/data10-storage.azcli
 ```
+1. Type the following to upload the sample files:
+
+```bash data10-storage.azcli *<storageaccountname>*
+```
+
 ...
