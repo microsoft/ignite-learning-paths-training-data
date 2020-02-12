@@ -1,0 +1,5 @@
+curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/demos/Datafiles/logs/weblogsQ1.json
+curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/demos/Datafiles/logs/weblogsQ2.json
+curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/demos/Datafiles/logs/preferences.json
+
+az storage copy --source-local-path "$PWD/*.json" --destination-account-name $1 --destination-container data
