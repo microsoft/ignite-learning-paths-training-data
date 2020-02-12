@@ -47,11 +47,12 @@ Estimated Time: 15 minutes
 
    This will copy the deployment script that will populate the Azure Data Lake Storage Containers with sample files
 
-```curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/scripts/data10-storage.azcli
+```
+curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/deployment/scripts/data10-storage.azcli
 ```
 1. Type the following to upload the sample files:
 
-```bash data10-storage.azcli *<storageaccountname>*
 ```
+bash data10-storage.azcli *<storageaccountname>*
 
-...
+```
