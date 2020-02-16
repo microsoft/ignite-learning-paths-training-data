@@ -58,4 +58,7 @@ curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-train
 ```
 1. Type the following to upload the sample files:
 
-`bash data10-storage.azcli **<storageaccountname>**
+```
+bash data10-storage.azcli <storageaccountname>
+```
+Example: bash data10-storage.azcli mdwdemostoredl
