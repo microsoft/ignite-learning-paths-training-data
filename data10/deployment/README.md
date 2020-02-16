@@ -8,9 +8,10 @@
 
 ### Azure Subscription
 
-Having an Azure subscription is mandatory to be able to do the *AFUN95: Figuring Out Azure Functions​*. If you don't own an Azure subscription already, you can create your **free** account today. It comes with 200$ credit, so you can experience almost everything without spending a dime.
+Having an Azure subscription is mandatory to be able to do the *DATA10: dEMOS​*. If you don't own an Azure subscription already, you can create your **free** account today. It comes with 200$ credit, so you can experience almost everything without spending a dime.
 
-[Create your free Azure account today](https://azure.microsoft.com/en-us/free?
+[Create a Free Azure Account here](https://azure.microsoft.com/en-us/free?)
+
 
 # Deployments
 
@@ -38,11 +39,11 @@ Estimated Time: 15 minutes
 - Azure Data Factory
 
 1. Click on the storage account and browse to Containers
-1. Capture the name of your storage acccount
-1. Capture the name of your storage acccount
+1. Capture the name of your storage acccount (Data Lake Storage)
 1. Expand the resource group
-1. CLick on teh SQL Data Warehouse
+1. CLick on the SQL Data Warehouse
 1. In the SQL Data Warehouse Window, click Pause to pause the service
+1. Click on the Azure Data Factory repo and validate Azure Data Factory was deployed succesfully
 
 ## Populate the Azure Storage container Azure CloudShell
 
