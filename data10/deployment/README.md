@@ -20,13 +20,13 @@ Having an Azure subscription is mandatory to be able to do the *DATA10: dEMOS​
 ## DATA10 Demo Automated Deployment
 
 
-### Step 1: Automated Deployment
+## Step 1: Automated Deployment
 
 Simply by pressing the blue "*Deploy to Azure*" button below, will provision the Azure Services required required for DATA10 demos.
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fignite-learning-paths-training-data%2Fmaster%2Fdeployment%2Fscripts%2FData10-deployment.json%0D%0A" target="_blank"><img src="https://azuredeploy.net/deploybutton.png"/></a>
 
-### Step 2: Validation of services
+## Step 2: Validation of services
 
 ## Validate Correct provisioning of services
 
@@ -45,7 +45,7 @@ Estimated Time: 15 minutes
 1. In the SQL Data Warehouse Window, click Pause to pause the service
 1. Click on the Azure Data Factory repo and validate Azure Data Factory was deployed succesfully
 
-## Populate the Azure Storage container Azure CloudShell
+## Step 3: Populate the Azure Storage container Azure CloudShell
 
 1. In the Azure Portal, open an Azure Cloudshell window.
    Complete the configuration process as needed
@@ -63,3 +63,5 @@ curl -OL https://raw.githubusercontent.com/microsoft/ignite-learning-paths-train
 bash data10-storage.azcli <storageaccountname>
 ```
 Example: bash data10-storage.azcli mdwdemostoredl
+
+**NOTE:** You have now succesfully validated the demo setup and can go back to the demo script

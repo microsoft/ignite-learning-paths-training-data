@@ -7,17 +7,16 @@ The following document describe how to do all the demos presented during the ses
 
 > 💡 You must have completed the [deployment](../deployment/README.md) before attempting to do the demo.
 
-##Explore the components of a modern data warehouse
 
 
-### Walkthrough of Azure Services
+
+## Walkthrough of Azure Services
 
 As part of this demo you will walk through the items created and provisioned as part of the demo deployment to Azure Script.
 You can also walk through and highlight manual provisioning / ARM deployments.
 
-### Step 1: Validation of services
-
 ## Validate Correct provisioning of services
+
 
 Estimated Time: 15 minutes
  
@@ -35,7 +34,7 @@ Estimated Time: 15 minutes
     - SQL Server
     - Storage account
 
-## Validate the provisioning of data lake storage
+### Validate the provisioning of data lake storage
 
 1. Click on the storage account
 1. Click on Containers
@@ -49,13 +48,13 @@ Estimated Time: 15 minutes
        - preferences.json
        - DimDate2.txt
        
-## Validate the provisioning of SQL Data Warehouse
+### Validate the provisioning of SQL Data Warehouse
 
 1. Click on the resource group
 1. Click on SQL data warehouse
 1. Validate the notification message indicating that the data warehouse is currently paused
 
-## Validate the provisioning of Azure Data Factory
+### Validate the provisioning of Azure Data Factory
 
 
 1. Click on the Azure Data Factory
@@ -63,6 +62,6 @@ Estimated Time: 15 minutes
 1. In Azure Data Factory, click on **Create pipeline from template**
 1. Showcase that many ADF Pipelines exist and can easily be deployed in ADF using ARM templates.
 
-**Note:** You will not create anything in this demo, and you're only highlighting the some of the components of an modern data warehouse
+**Note:** You will not be creating a new pipeline in this demo, you're only highlighting the some of the components of an modern data warehouse
 
 💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.
