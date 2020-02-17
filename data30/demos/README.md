@@ -12,7 +12,7 @@ The following document describe how to do all the demos presented during the ses
      
 ## Exercise 1: Transforming Data with Mapping Data Flow
   
-Estimated Time: 30 minutes
+Estimated Time: 15 minutes
 
 Individual exercise
 
@@ -33,13 +33,16 @@ The main tasks for this exercise are as follows:
 ### Task 1: Preparing the environment
 
 1. Navigate to Azure Data Factory, and click **Author and Monitor**
-1. Click **Create pipeline**
+1. Click on the **Pencil** Icon
 
 1. **Turn on Data Flow Debug** Turn the **Data Flow Debug** slider located at the top of the authoring module on. 
 
     > NOTE: Data Flow clusters take 5-7 minutes to warm up.
+1. Expand **Pipelines**
+1. Select **Pipeline1**
 
-1. **Add a Data Flow activity** In the Activities pane, open the Move and Transform accordion and drag the **Data Flow** activity onto the pipeline canvas. In the blade that pops up, click **Create new Data Flow** and select **Mapping Data Flow** and then click **OK**. Click on the  **pipeline1** tab and drag the green box from your Copy activity to the Data Flow Activity to create an on success condition. You will see the following in the canvas:
+1. **Add a Data Flow activity** In the Activities pane, open the Move and Transform accordion and drag the **Data Flow** activity onto the pipeline canvas. In the blade that pops up, click **Create new Data Flow** and select **Mapping Data Flow** and then click **OK**.
+Click Close, then click on the  **pipeline1** tab and drag the green box from your Copy activity to the Data Flow Activity to create an on success condition. You will see the following in the canvas:
 
     ![Adding a Mapping Data Flow in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T01-img01.png)
 
@@ -49,11 +52,14 @@ The main tasks for this exercise are as follows:
 
     ![Adding a Source to a Mapping Data Flow in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T02-img01.png)
 
-
     * If your dataset is pointing at a folder with other files, you may need to create another dataset or utilize parameterization to make sure only the moviesDB.csv file is read
     * If you have not imported your schema in your ADLS, but have already ingested your data, go to the dataset's 'Schema' tab and click 'Import schema' so that your data flow knows the schema projection.
 
     Once your debug cluster is warmed up, verify your data is loaded correctly via the Data Preview tab. Once you click the refresh button, Mapping Data Flow will show calculate a snapshot of what your data looks like when it is at each transformation.
+
+1. Click on Source Options
+1. Click on Projection
+1. Click on Import Schema
   
 ### Task 3: Using Mapping Data Flow transformation
 
@@ -80,6 +86,7 @@ The main tasks for this exercise are as follows:
 
     In this scenario, you are trying to extract the first genre from the genres column which is formatted as 'genre1|genre2|...|genreN'. Use the **locate** function to get the first 1-based index of the '|' in the genres string. Using the **iif** function, if this index is greater than 1, the primary genre can be calculated via the **left** function which returns all characters in a string to the left of an index. Otherwise, the PrimaryGenre value is equal to the genres field. You can verify the output via the expression builder's Data preview pane.
 
+   Your expression should look like: iif(locate('|',genres)>1,left(genres(locate('|',genres)-1),genres)
    
 1. **Rank movies via a Window Transformation** Say you are interested in how a movie ranks within its year for its specific genre. You can add a [Window transformation](https://docs.microsoft.com/azure/data-factory/data-flow-window) to define window-based aggregations by clicking on the **+ icon** next to your Derived Column transformation and clicking Window under Schema modifier. To accomplish this, specify what you are windowing over, what you are sorting by, what the range is, and how to calculate your new window columns. In this example, we will window over PrimaryGenre and year with an unbounded range, sort by Rotten Tomato descending, a calculate a new column called RatingsRank which is equal to the rank each movie has within its specific genre-year.
 
@@ -119,7 +126,7 @@ The main tasks for this exercise are as follows:
     1. In the dataset configuration, select **Create new table** and enter in the schema of **Dbo** and the  table name of **Ratings**. Click **OK** once completed.
     ![Creating an Azure Synapse Analytics table in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T04-img02.png)
     1. Since an upsert condition was specified, you need to go to the Settings tab and select 'Allow upsert' based on key columns PrimaryGenre and year.
-    ![Configuring Sink settings in Azure Data Factory]/demos/(Linked_Image_Files/M07-E03-T04-img03.png)
+    ![Configuring Sink settings in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T04-img03.png)
 At this point, You have finished building your 8 transformation Mapping Data Flow. It's time to run the pipeline and see the results!
 
 ![Completed Mapping Data Flow in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T04-img04.png)

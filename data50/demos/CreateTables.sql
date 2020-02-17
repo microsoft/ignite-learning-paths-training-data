@@ -1,8 +1,8 @@
 
-/*This script is used as part of DATA40 Demo - creation of database objects. and used to explain table distribution in a relational data warehouse (Azure Synapse Analytics)
+/*This script is used as part of DATA50 Demo - creation of database objects. and used to explain table distribution in a relational data warehouse (Azure Synapse Analytics)
 
 Script use: Modern Data Warehouse - Ignite the tour
-Script created by: @iliksql
+Script created by: @ilikesql
 
 These scripts are for illustrative and demonstrative purposes only.
 Do not alter, or run these scripts in production environments without having a clear understanding of the purpose of each statement
