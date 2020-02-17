@@ -12,6 +12,7 @@ To ensure optimal performance of their analytics solution and deliver insights t
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
+| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data50/DATA50.mp4) |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
 | Demos             | - [Demo 1 - Query Performance Tuning](demos/README.md#demo-1---optimizing-data-warehouse-performance)  |
 

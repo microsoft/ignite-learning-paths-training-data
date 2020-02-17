@@ -12,6 +12,7 @@ Tailwind Traders, like many other companies is driving digital transformation to
 | Resources          | Links                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentation](presentations.md) |
+| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
 | Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) |
 
