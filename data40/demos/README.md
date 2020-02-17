@@ -8,102 +8,8 @@ The following document describe how to do all the demos presented during the ses
 
 > 💡 You must have completed the [deployment](../deployment/README.md) before attempting to do the demo.
 
-## Exercise 1: Create an Azure Synapse Analytics
-  
-Estimated Time: 15 minutes
 
-Individual exercise
-  
-The main tasks for this exercise are as follows:
-
-1. Create and configure a Azure Synapse Analytics instance.
-
-1. Configure the Server Firewall
-
-1. Pause the warehouse database
-
-### Task 1: Create and configure a Azure Synapse Analytics instanc instance
-
-> 💡 If you created the Azure Synapse Analytics instance by completing the DATA10 deployment script - you can skip this exercise
-
-
-1. In the Azure portal, click on the link **home** at the top left of the screen.
-
-1. In the Azure portal, click **+ Create a resource**.
-
-1. In the New blade, navigate to the **Search the Marketplace** text box, and type the word **Synapse**. Click **Azure Synapse Analytics (formerly SQL DW)** in the list that appears.
-
-1. In the **Azure Synapse Analytics (formerly SQL DW)** blade, click **Create**.
-
-1. From the **SQL Data Warehouse** blade, create an Azure Synapse Analytics  with the following settings:
-
-    - In the Project details section, type in the following information
-
-        - **Subscription**: the name of the subscription you are using in this lab
-
-        - **Resource group**: **yourresourcegroup(unique)**
-
-    - In **Additional setting** tab, under data source, click **Sample**.
-
-    - Click the **Basics** tab once this has been done.
-    
-    - In the Database details section, type in the following information
-
-        - **Database warehouse name**: **yourdatawarehousename**
-
-        - **Server**: Create a new server by clicking **Create new** with the following settings and click on **OK**:
-            - **Server name**: **yourservername**
-            - **Server admin login**: **youradminuser**
-            - **Password**: **Pa55w.rd**
-            - **Confirm Password**: **Pa55w.rd**
-            - **Location**: choose a **location** near to you.
-            - Select the checkbox to Allow Azure services to access server
-            - click on **OK**
-
-                ![Creating a server instance in the Azure portal](/demos/Linked_Image_Files/M05-E02-T01-img01.png)
-
-    - Performance Level: Click **Select performance level** and select **Gen2 DW100C**.
-
-        ![Configuring performance of Azure Synapse Analytics in the Azure portal](/demos/Linked_Image_Files/M05-E02-T01-img02.png)
-
-    - Click **Apply**. the following configuration is shown.
-
-        ![Configuring Azure Synapse Analytics in the Azure portal](/demos/Linked_Image_Files/M05-E02-T01-img03.png)
-
-1. In the **SQL Data Warehouse** screen, click **Review + create**.
-
-1. In the **SQL Data Warehouse** blade, click **Create**.
-
-   > **Note**: The provision will takes approximately 7 minutes.
-
-### Task 2: Configure the Server Firewall
-
-1. In the Azure portal, in the blade, click **Resource groups**, and then click **yourresourcegroup**, and then click on **yourdatawarehousename**
-
-1. Click on **yourdatawarehousename**
-
-1. In the **yourdatawarehousename** screen, click on **Firewalls and virtual networks**.
-
-1. In the yourdatawarehousename - Firewalls and virtual networks screen, click on the option **+ Add client IP**, and then click on **Save**. On the success screen click **OK**.
-
-    ![Configuring Azure Synapse Analytics firewall settings in the Azure portal](/demos/Linked_Image_Files/M05-E02-T02-img01.png)
-
-    > **Note**: You will receive a message stating that the the server firewall rules have been successfully updated
-
-1. Close down the Firewalls and virtual networks screen.
-
-> **Result**: After you completed this exercise, you have created an Azure  Synapse Analytics  instance and configures the server firewall to enable connections against it.
-
-### Task 3: Pause the warehouse database
-
-1. Click on **yourwarehousename**
-
-1. In the **yourwarehousename** screen, click on **Pause**.
-
-1. In the Pause Warehousexx screen, click **Yes**
-
-
-## Exercise 2: Creating an Azure Synapse Analytics database and tables
+## Exercise 1: Creating an Azure Synapse Analytics database objects
 
 Estimated Time: 10 minutes
 
@@ -187,7 +93,11 @@ The main tasks for this exercise are as follows:
 
 1. In **SQL Server Management Studio**, in Object Explorer, right click **yourdwservername.database.windows.net** and click on **New Query**.
 
+    **Note:** If you haven't previously registered the database instance, you will have to register and use the sql user and password you used to deploy the environment in DATA10
+
 1. In **SQL Server Management Studio**, in SQL Editor toolbar, in **Available Databases**, click on **DWDB**.
+
+**Note:** If you already created a master key as part of DATA20 demo, you can skip the next step and go to create a database scoped credential
 
 1. Create a **master key** against the **DWDB** database. In the query editor, type in the following code:
 
@@ -196,7 +106,7 @@ The main tasks for this exercise are as follows:
     ```
 
 1. Create a database scoped credential named **AzureStorageCredential** with the following details, by typing in the following code:
-    - IDENTITY: **MOCID**
+    - IDENTITY: **Blobidentity**
     - SECRET: **The access key of your storage account**
 
     ```SQL

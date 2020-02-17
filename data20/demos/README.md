@@ -84,7 +84,7 @@ The main tasks for this exercise are as follows:
 
 1. Click on **Create**
 
-1. Once you have configured your linked service, you enter the set properties blade. As you are writing to this dataset, you want to point the folder where you want moviesDB.csv copied to. In the example below, you are writing to folder **output** in the file system **data**. While the folder can be dynamically created, the file system must exist prior to writing to it. Set **First row as header** to be true. 
+1. Once you have configured your linked service, you enter the set properties blade. As you are writing to this dataset, you want to point the folder where you want moviesDB.csv copied to. In the example below, you are writing in the  **data** filesystem. While the folder can be dynamically created, the file system must exist prior to writing to it. Set **First row as header** to be true. 
    ![Setting properties of a Sink in Azure Data Factory in the Azure Portal](/demos/Linked_Image_Files/M07-E02-T03-img02.png)
 
 1. Click **OK** once completed.
@@ -100,6 +100,6 @@ At this point, you have fully configured your copy activity. To test it out, cli
    ![Monitoring a pipeline in Azure Data Factory in the Azure Portal](/demos/Linked_Image_Files/M07-E02-T04-img01.png)
 
 1. To verify the copy worked as expected, open up your ADLS gen2 storage account and check to see your file was written as expected
-
+1. **Important:** In order to proceed with the next demo - click **Publish All** to deploy the pipeline to the factory
 
 💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.

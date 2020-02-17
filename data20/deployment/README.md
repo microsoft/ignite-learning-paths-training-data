@@ -18,5 +18,7 @@ https://azure.microsoft.com/en-us/free?
 ## DATA20 Demo Automated Deployment
 
 If you have NOT completed the DATA10 deployment first - please complete the [DATA10 pre-demo deployment](../../data10/deployment/README.md)
-No additonal steps are needed.
+
+1. In the Azure Portal, navigate to the SQL data warehouse blade 
+1. Click **Resume** to resume the SQL data warehouse service
 

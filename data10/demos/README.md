@@ -2,7 +2,6 @@
 
 The following document describe how to do all the demos presented during the session. You must have completed the [deployment](../deployment/README.md) before attempting to do the demos.
 
----
 
 ## Demo 1 - Exploring a Modern Data Warehouse 
 
@@ -16,7 +15,7 @@ The following document describe how to do all the demos presented during the ses
 As part of this demo you will walk through the items created and provisioned as part of the demo deployment to Azure Script.
 You can also walk through and highlight manual provisioning / ARM deployments.
 
-### Step 21: Validation of services
+### Step 1: Validation of services
 
 ## Validate Correct provisioning of services
 
@@ -28,12 +27,16 @@ Estimated Time: 15 minutes
 - Azure Storage Accounts
 - Azure Data Factory
 
+
 1. Click on the resource groups
 1. Validate that 4 resources are listed:
     - Data factory (v2)
     - SQL data warehouse
     - SQL Server
     - Storage account
+
+## Validate the provisioning of data lake storage
+
 1. Click on the storage account
 1. Click on Containers
     - Validate that 2 containers **data** and **logs** are existing
@@ -42,31 +45,24 @@ Estimated Time: 15 minutes
         - preferences.json
         - weblogsQ1.log
         - weblogsQ2.log
-1. Repeate the validation for the **data** container as well, validate that 2 files exist in the container:
+1. Repeat the validation for the **data** container as well, validate that 2 files exist in the container:
        - preferences.json
        - DimDate2.txt
        
+## Validate the provisioning of SQL Data Warehouse
+
+1. Click on the resource group
+1. Click on SQL data warehouse
+1. Validate the notification message indicating that the data warehouse is currently paused
+
+## Validate the provisioning of Azure Data Factory
 
 
-1. CLick on the SQL Data Warehouse
-1. In the SQL data warehouse blade, click on **Firewalls and virtual networks**
-    1. Click **Add client IP**
-    1. Click **Save**
-1. In the SQL data warehouse blade, click **Query Editor (preview)**
-    1. Log in with the sql user you specified as part of the deployment script
-    1. Click **New Query**
-    1. Type the following command to create a server master key
-        
-        ```
-          CREATE MASTER KEY ENCRYPTION BY PASSWORD = '23987hxJ#KL95234nl0zBe'
-        ```
+1. Click on the Azure Data Factory
+1. Click on Author & Monitor
+1. In Azure Data Factory, click on **Create pipeline from template**
+1. Showcase that many ADF Pipelines exist and can easily be deployed in ADF using ARM templates.
 
-1. In the SQL data warehouse blade, click **Overview**
-1. Click **Pause** to pause the service
-1. Click on the Azure Data Factory repo and validate Azure Data Factory was deployed succesfully
-
-
-
-
+**Note:** You will not create anything in this demo, and you're only highlighting the some of the components of an modern data warehouse
 
 💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.

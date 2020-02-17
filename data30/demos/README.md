@@ -32,11 +32,14 @@ The main tasks for this exercise are as follows:
 
 ### Task 1: Preparing the environment
 
+1. Navigate to Azure Data Factory, and click **Author and Monitor**
+1. Click **Create pipeline**
+
 1. **Turn on Data Flow Debug** Turn the **Data Flow Debug** slider located at the top of the authoring module on. 
 
     > NOTE: Data Flow clusters take 5-7 minutes to warm up.
 
-1. **Add a Data Flow activity** In the Activities pane, open the Move and Transform accordion and drag the **Data Flow** activity onto the pipeline canvas. In the blade that pops up, click **Create new Data Flow** and select **Mapping Data Flow** and then click **OK**. Click on the  **pipeline1** tab and drag the green box from your Copy activity to the Data Flow Activity to create an on success condition. You will see the following in the canvass:
+1. **Add a Data Flow activity** In the Activities pane, open the Move and Transform accordion and drag the **Data Flow** activity onto the pipeline canvas. In the blade that pops up, click **Create new Data Flow** and select **Mapping Data Flow** and then click **OK**. Click on the  **pipeline1** tab and drag the green box from your Copy activity to the Data Flow Activity to create an on success condition. You will see the following in the canvas:
 
     ![Adding a Mapping Data Flow in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T01-img01.png)
 
@@ -112,7 +115,7 @@ The main tasks for this exercise are as follows:
     1. In the Sink tab, create a new data warehouse dataset via the **+ New button**.
     1. Select **Azure Synapse Analytics** from the tile list.
     1. Select a new linked service and configure your Azure Synapse Analytics connection to connect to the DWDB database created in Module 5. Click **Create** when finished.
-    ![Creating an Azure Synapse Analytics connection in Azure Data Factory]/demos/(Linked_Image_Files/M07-E03-T04-img01.png)
+    ![Creating an Azure Synapse Analytics connection in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T04-img01.png)
     1. In the dataset configuration, select **Create new table** and enter in the schema of **Dbo** and the  table name of **Ratings**. Click **OK** once completed.
     ![Creating an Azure Synapse Analytics table in Azure Data Factory](/demos/Linked_Image_Files/M07-E03-T04-img02.png)
     1. Since an upsert condition was specified, you need to go to the Settings tab and select 'Allow upsert' based on key columns PrimaryGenre and year.
@@ -133,7 +136,10 @@ At this point, You have finished building your 8 transformation Mapping Data Flo
 
 1. If you used the same logic described in this lab, your Data Flow should will written 737 rows to your SQL DW. You can go into [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) to verify the pipeline worked correctly and see what got written.
 
-    ![Querying the results in SQL Server Management Studio](/demos/Linked_Image_Files/M07-E03-T05-img02.png)
+Another option is to switch to the Azure Portal, expand the data warehouse blade in your resource group and start the **Query Editor (preview)** from the SQL data warehouse blade and write the following query:
 
+```
+select count(*) from dbo.Ratings
+```
 
 💡 NOTE - At the end of this demo, if you are NOT going through any other demos - delete the resource group to reduce and mimize Azure spend.
