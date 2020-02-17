@@ -43,7 +43,7 @@ The main tasks for this exercise are as follows:
 
 **Note**:Rather than having to type the Syntax - you can also download the [SQL Create External Table Scripts file](../demos/CreateExternalTables.sql)
 
-1. Create a **master key** against the **DWDB** database. In the query editor, by either typing or highlighting and executing the following code:
+1. Create a **master key** against the data warehouse. In the query editor, by either typing or highlighting and executing the following code:
 
     ```SQL
     CREATE MASTER KEY;
@@ -57,8 +57,7 @@ The main tasks for this exercise are as follows:
     CREATE DATABASE SCOPED CREDENTIAL AzureStorageCredential
     WITH
     IDENTITY = 'BlobIdentity',
-    SECRET = 'Your storage account key'
-;
+    SECRET = 'Your storage account key';
     ```
 
     **Note:** Prior to execution, make sure you have entered the valid storage account key
