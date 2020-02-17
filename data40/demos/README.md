@@ -30,7 +30,7 @@ The main tasks for this exercise are as follows:
 
 1. Copy the **"Server name"** and paste it into Notepad.
 
-1. Download data40\demos\CreateTables.sql and install onto your machine
+1. Download [data40\demos\CreateTables.sql]() and install onto your machine
 
 1. On the windows desktop, click on the **Start**, and type **"SQL Server"** and then click on **MIcrosoft SQL Server Management Studio 17**
 
@@ -65,7 +65,7 @@ The main tasks for this exercise are as follows:
 1. In **SQL Server Management Studio**, in Object Explorer, right click **yourdwservername.database.windows.net** and click on **New Query**.
 
 1. In **SQL Server Management Studio**, in SQL Editor toolbar, in **Available Databases**, click on **DWDB**.
-1. Download the query file or copy it's content in SQL Management Studio ![SQL Create Table Scripts file](../demos/CreateTables.sql)
+1. Download the query file or copy it's content in SQL Management Studio [SQL Create Table Scripts file](../demos/CreateTables.sql)
 1. Execute the Query to create all the tables
 
 
@@ -99,7 +99,11 @@ The main tasks for this exercise are as follows:
 
 **Note:** If you already created a master key as part of DATA20 demo, you can skip the next step and go to create a database scoped credential
 
-1. Create a **master key** against the **DWDB** database. In the query editor, type in the following code:
+
+
+**Note**:Rather than having to type the Syntax - you can also download the [SQL Create External Table Scripts file](../demos/CreateExternalTables.sql)
+
+1. Create a **master key** against the **DWDB** database. In the query editor, by either typing or highlighting and executing the following code:
 
     ```SQL
     CREATE MASTER KEY;
@@ -117,6 +121,8 @@ The main tasks for this exercise are as follows:
 ;
     ```
 
+    **Note:** Prior to execution, make sure you have entered the valid storage account key
+
 1. In **SQL Server Management Studio**, highlight both statements and then click on **Execute**.
 
 1. In **SQL Server Management Studio**, in the Query window, type in code that will create an external data source named **AzureStorage** for the Blob storage account and data container created in with a type of **HADOOP** that makes use of the ****AzureStorageCredential**. Note that you should replace **yourblobstorage** in the location key with your storage account with your initials 
@@ -125,10 +131,11 @@ The main tasks for this exercise are as follows:
 	CREATE EXTERNAL DATA SOURCE AzureStorage
     WITH (
         TYPE = HADOOP,
-        LOCATION = 'abfs://data@yourblobstorage.dfs.core.windows.net',
+        LOCATION = 'abfss://data@yourblobstorage.dfs.core.windows.net',
         CREDENTIAL = AzureStorageCredential
     );
     ```
+    **Note**: Replace the above *yourblobstorage* with the name of the blob storage account you previously created.
 
 1. In **SQL Server Management Studio**, in the Query window, type in code that will create an external file format named **TextFile** with a formattype of **DelimitedText** and a filed terminator of **comma**.
 
