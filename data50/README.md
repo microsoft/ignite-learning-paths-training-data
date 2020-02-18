@@ -69,10 +69,12 @@ The [slides](presentations.md) have presenter notes on every slide
 
 Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
 
+**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
+
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
 |  [1 - Query Performance Tuning](demos/README.md#demo-1---Query-Performance-Tuning) | ?       | [Link](/)
-
+| Demo Recordings           | - [Data50 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data50/Data50-Demo--NoAudio.mp4  ) |
 
 ## Become a Trained Presenter
 

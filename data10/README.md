@@ -15,7 +15,11 @@ Tailwind Traders, like many other companies is driving digital transformation to
 | PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) |
 | Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) |
+| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) |
+| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) |
 
+
+**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
 
 ## How To Use
 

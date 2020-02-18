@@ -52,7 +52,8 @@ Estimated Time: 15 minutes
 
 1. Click on the resource group
 1. Click on SQL data warehouse
-1. Validate the notification message indicating that the data warehouse is currently paused
+1. Validate the notification message indicating that the data warehouse is currently paused.
+   If the service is NOT paused - click **Pause** to stop the service.
 
 ### Validate the provisioning of Azure Data Factory
 

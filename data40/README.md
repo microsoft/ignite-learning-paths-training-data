@@ -15,6 +15,10 @@ Tailwind Traders data loading lends itself to a variety of data ingestion method
 | PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data40/DATA40.mp4) |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84373) |
 | Demos             | - [Demo 1 - Loading Data into Azure Synapse Analytics](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse) |
+| Demo Recordings           | - [Data40 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data40/Data40-Demo--NoAudio.mp4  ) |
+
+
+**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
 
 
 ## How To Use

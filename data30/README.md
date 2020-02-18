@@ -15,7 +15,10 @@ Tailwind Traders, deals with the core issue of having to connect and relate mult
 | PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data30/DATA30.mp4) |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84356) |
 | Demos             | - [Demo 1 - Transforming Data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory)  |
+| Demo Recordings           | - [Data30 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data30/Data30-Demo--NoAudio.mp4 ) |
 
+
+**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
 
 ## How To Use
 
