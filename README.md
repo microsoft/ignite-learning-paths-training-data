@@ -35,7 +35,7 @@ Tailwind Traders, like many other companies is driving digital transformation to
 To build their analytics solution, Tailwind Traders needs to derive insights from a variety of data sources. 
 Tailwind Traders uses Azure Data Factory to create data pipelines for data ingestion in preparation for analytics. 
 
-### [**DATA30**: Ingesting data for analytics workloads](./data30/README.md)
+### [**DATA30**: Transforming and enriching data](./data30/README.md)
 
 Tailwind Traders, deals with the core issue of having to connect and relate multiple data sources. In order to be able to prepare the data for reasoning and analysis, data requires transformation and enrichment. 
 
