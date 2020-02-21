@@ -19,7 +19,7 @@ Tailwind Traders, like many other companies is driving digital transformation to
 | Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) |
 
 
-**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
+> **Note:** Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
 
 ## How To Use
 
