@@ -20,7 +20,7 @@ If you have NOT completed the DATA10 deployment first - please complete the [DAT
 
 1. In the Azure Portal, navigate to the SQL data warehouse blade 
 1. Click **Resume** to resume the SQL data warehouse service
-1. In the Azure Portal, in your **Azure Synapse Data Warehouse- Firewalls and virtual networks**, in the blade, click on **Properties**
+1. In the Azure Portal, in your **Azure Synapse Data Warehouse- Firewalls and virtual networks**
 1. Click **Add Client IP** to get access to the server
 1. Click **Save**
 

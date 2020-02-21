@@ -18,7 +18,7 @@ Tailwind Traders, deals with the core issue of having to connect and relate mult
 | Demo Recordings           | - [Data30 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data30/Data30-Demo--NoAudio.mp4 ) |
 
 
-**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
+> **Note:** Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
 
 ## How To Use
 
