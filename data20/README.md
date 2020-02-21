@@ -20,7 +20,7 @@ Tailwind Traders uses Azure Data Factory to create data pipelines for data inges
 | Demo Recordings           | - [Data20 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data20/Data20-Demo--NoAudio.mp4 ) |
 
 
-**Note:**Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
+> **Note:** Demo recordings do not have voice over or audio, for the purpose to serve as backup to deliveries
 
 ## How To Use
 

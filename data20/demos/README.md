@@ -84,8 +84,13 @@ The main tasks for this exercise are as follows:
 
 1. Click on **Create**
 
-1. Once you have configured your linked service, you enter the set properties blade. As you are writing to this dataset, you want to point the folder where you want moviesDB.csv copied to. In the example below, you are writing in the  **data** filesystem. While the folder can be dynamically created, the file system must exist prior to writing to it. Set **First row as header** to be true. 
-   ![Setting properties of a Sink in Azure Data Factory in the Azure Portal](/demos/Linked_Image_Files/M07-E02-T03-img02.png)
+1. Once you have configured your linked service, you enter the set properties blade. As you are writing to this dataset, you want to point the folder where you want moviesDB.csv copied to. In the example below, you are writing to the  **data** folder. While the folder can be dynamically created, the file system must exist prior to writing to it.
+    * Set 'File path' to the 'data' folder in ADLS
+    * Set **First row as header** to be true. 
+    * Set 'Import schema' to 'From connection/store'
+
+
+![Setting properties of a Sink in Azure Data Factory in the Azure Portal](/demos/Linked_Image_Files/M07-E02-T03-img02.png)
 
 1. Click **OK** once completed.
 
