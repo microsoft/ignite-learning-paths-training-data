@@ -42,7 +42,6 @@ This training repository is divided in to the following sections:
 |-------------------|---------------------------|--------------------------------------
 | 34 slides - 30 minutes, | 1 demos - 15 minutes, | ? automated deployment
 
- [Full-length video can be viewed here](#).
 
 ## Slides
 
@@ -74,7 +73,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Transforming your data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory) | ?       | [Link](/)
+|  [1 - Transforming your data in Azure Data Factory](demos/README.md#demo-1---transforming-your-data-in-azure-data-factory) | ?       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data30/Data30-Demo--NoAudio.mp4)
 
 
 ## Become a Trained Presenter

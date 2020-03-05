@@ -43,7 +43,6 @@ This training repository is divided in to the following sections:
 |-------------------|---------------------------|--------------------------------------
 | 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
 
- [Full-length video can be viewed here](#).
 
 ## Slides
 
@@ -75,7 +74,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](/)
+|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4)
 
 
 ## Become a Trained Presenter

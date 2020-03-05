@@ -15,6 +15,7 @@ To ensure optimal performance of their analytics solution and deliver insights t
 | PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data50/DATA50.mp4) |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84385) |
 | Demos             | - [Demo 1 - Query Performance Tuning](demos/README.md#demo-1---optimizing-data-warehouse-performance)  |
+| Demo Video             | - [Demo 1 - Query Performance Tuning Video](https://globaleventcdn.blob.core.windows.net/assets/data/data50/Data50-Demo--NoAudio.mp4)  |
 
 
 ## How To Use
@@ -39,7 +40,6 @@ This training repository is divided in to the following sections:
 |-------------------|---------------------------|--------------------------------------
 | 27 slides - 30 minutes | 1 demo - 15 minutes | Demo Setup
 
- [Full-length video can be viewed here](#).
 
 ## Slides
 

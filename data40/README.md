@@ -43,7 +43,6 @@ This training repository is divided in to the following sections:
 |-------------------|---------------------------|--------------------------------------
 | 27 slides - 30 minutes | 1 demos - 15 minutes | Demo Deployment
 
- [Full-length video can be viewed here](#).
 
 ## Slides
 
@@ -75,7 +74,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Loading data into Azure Synapse Analytics Data Warehouse](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse) | ?       | [Link](/)
+|  [1 - Loading data into Azure Synapse Analytics Data Warehouse](demos/README.md#demo-1---loading-data-into-Azure-Synapse-datawarehouse) | ?       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data40/Data40-Demo--NoAudio.mp4)
 
 
 ## Become a Trained Presenter

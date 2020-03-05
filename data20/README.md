@@ -44,7 +44,7 @@ This training repository is divided in to the following sections:
 |-------------------|---------------------------|--------------------------------------
 | 22 slides - 30 minutes | 1 demos - 15 minutes | Demo Deployment
 
- [Full-length video can be viewed here](#).
+
 
 ## Slides
 
@@ -77,7 +77,7 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Ingesting Data With Azure Data Factory](demos/README.md#demo-1--ingesting-data-with=datafactory) | 15       | [Link](/)
+|  [1 - Ingesting Data With Azure Data Factory](demos/README.md#demo-1--ingesting-data-with=datafactory) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data20/Data20-Demo--NoAudio.mp4)
 
 
 ## Become a Trained Presenter
