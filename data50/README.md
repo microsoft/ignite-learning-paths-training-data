@@ -73,8 +73,8 @@ Detailed explanations of each demonstration associated with this presentation ca
 
 | Demo 	                                                                                               | Minutes | Video
 -------------------------------------------------------------------------------------------------------|---------|-----------------
-|  [1 - Query Performance Tuning](demos/README.md#demo-1---Query-Performance-Tuning) | ?       | [Link](/)
-| Demo Recordings           | - [Data50 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data50/Data50-Demo--NoAudio.mp4  ) |
+|  [1 - Query Performance Tuning](demos/README.md#demo-1---Query-Performance-Tuning) | ?       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data50/Data50-Demo--NoAudio.mp4)
+
 
 ## Become a Trained Presenter
 
