@@ -1,9 +1,10 @@
 # Ignite Learning Paths - Modern Data Warehouse
-![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft)  ![Session](https://img.shields.io/badge/🗣️Sessions-5-31c754)
+
+![Learning Path](https://img.shields.io/badge/Learning%20Path-DATA-fe5e00?logo=microsoft) ![Session](https://img.shields.io/badge/🗣️Sessions-5-31c754)
 
 Welcome!
 
-The content of this repository is available for you so you can reproduce any demo or learn how to present any session of the Learning Path presented at [Migrosoft Ignite](https://www.microsoft.com/en-us/ignite) and during [Microsoft Ignite The Tour](https://www.microsoft.com/en-ca/ignite-the-tour/), in your local field office, a community user group, or even as a lunch-and-learn event for your company.
+The content of this repository is available for you so you can reproduce any demo or learn how to present any session of the Learning Path presented at [Microsoft Ignite](https://www.microsoft.com/en-us/ignite) and during [Microsoft Ignite The Tour](https://www.microsoft.com/en-ca/ignite-the-tour/), in your local field office, a community user group, or even as a lunch-and-learn event for your company.
 
 ## Do the Demos
 
@@ -15,14 +16,14 @@ We're glad you are here and look forward to your delivery of this amazing conten
 
 Along with the video of the presentation, this repository will link to all the assets you need to successfully present including PowerPoint slides and demo instructions & code.
 
-## About this Learning Path: 
+## About this Learning Path:
 
 ### Intelligent decision making through modern data warehousing
 
-Data is the greatest asset to a company in the process of intelligent decision making. 
-How is my business performing? How do I get more insights to turn from a reactive approach to a pro-active and predictive scenario? 
-TailWind Traders, is driving the digital transformation by breaking the barriers caused by data silos, and building an analytics solution. 
-In this learning path you’ll about the journey of building out an analytics solution through modern data warehousing as a core engine to provide intelligent decision making. 
+Data is the greatest asset to a company in the process of intelligent decision making.
+How is my business performing? How do I get more insights to turn from a reactive approach to a pro-active and predictive scenario?
+TailWind Traders, is driving the digital transformation by breaking the barriers caused by data silos, and building an analytics solution.
+In this learning path you’ll about the journey of building out an analytics solution through modern data warehousing as a core engine to provide intelligent decision making.
 
 ## Sessions
 
@@ -30,16 +31,16 @@ Here are all the sessions available in the learning path **Intelligent decision 
 
 ### [**DATA10**: Delivering a modern data warehouse](./data10/README.md)
 
-Tailwind Traders, like many other companies is driving digital transformation to get actionable insights from their data. To drive business impact and intelligent decision making, they are taking advantage of a modern data warehouse to build a cloud-scale analytics solution. 
+Tailwind Traders, like many other companies is driving digital transformation to get actionable insights from their data. To drive business impact and intelligent decision making, they are taking advantage of a modern data warehouse to build a cloud-scale analytics solution.
 
 ### [**DATA20**: Ingesting data for analytics workloads](./data20/README.md)
 
-To build their analytics solution, Tailwind Traders needs to derive insights from a variety of data sources. 
-Tailwind Traders uses Azure Data Factory to create data pipelines for data ingestion in preparation for analytics. 
+To build their analytics solution, Tailwind Traders needs to derive insights from a variety of data sources.
+Tailwind Traders uses Azure Data Factory to create data pipelines for data ingestion in preparation for analytics.
 
 ### [**DATA30**: Transforming and enriching data](./data30/README.md)
 
-Tailwind Traders, deals with the core issue of having to connect and relate multiple data sources. In order to be able to prepare the data for reasoning and analysis, data requires transformation and enrichment. 
+Tailwind Traders, deals with the core issue of having to connect and relate multiple data sources. In order to be able to prepare the data for reasoning and analysis, data requires transformation and enrichment.
 
 ### [**DATA40**: Data loading best practices](./data40/README.md)
 
@@ -47,23 +48,21 @@ Tailwind Traders data loading lends itself to a variety of data ingestion method
 
 ### [**DATA50**: Optimizing data warehousing query performance](./data50/README.md)
 
-To ensure optimal performance of their analytics solution and deliver insights to the entire organization, TailWind Traders implements best practices to maximize scale and throughput. 
+To ensure optimal performance of their analytics solution and deliver insights to the entire organization, TailWind Traders implements best practices to maximize scale and throughput.
 
 ## Contributing
 
 To know more about about to contribute to this project please refer to the [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing](CONTRIBUTING.md) page.
 
-
 ## Become a Trained Presenter
 
-You don't need anything to present this content, it's all there to be used. However, by becoming a *Trained Presenter* the scalable content team will recognize you as well. *Trained Presenter* see their contact information (name, picture, website) in the bottom of each session.  
- 
-To become a *Trained Presenter*, contact [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). In your email please include:
+You don't need anything to present this content, it's all there to be used. However, by becoming a _Trained Presenter_ the scalable content team will recognize you as well. _Trained Presenter_ see their contact information (name, picture, website) in the bottom of each session.
+
+To become a _Trained Presenter_, contact [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). In your email please include:
 
 - Complete name:
 - The code of this presentation: \<Session Code (ex:DATA10)\>
 - Link to an unlisted YouTube video of you presenting around 10 minutes of the content for this specific session.
-
 
 ## Legal Notices
 
