@@ -51,7 +51,7 @@ The main tasks for this exercise are as follows:
 
 1. In the New Linked Service (HTTP) screen, specify the url of the moviesDB csv file. You can access the data with no authentication required using the following endpoint:
 
-    https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/master/data20/demos/moviesDB.csv
+    https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-data/main/data20/demos/moviesDB.csv
 
 1. Place this in the **Base URL** text box. 
 
