@@ -76,17 +76,6 @@ Detailed explanations of each demonstration associated with this presentation ca
 |  [1 - Query Performance Tuning](demos/README.md#demo-1---Query-Performance-Tuning) | ?       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data50/Data50-Demo--NoAudio.mp4)
 
 
-## Become a Trained Presenter
-
-To become a trained presenter, contact [learningpathmanager@microsoft.com](mailto:learningpathmanager@microsoft.com). In your email please include:
-
-- Complete name:
-- The code of this presentation: DATA50
-- Link (ex: unlisted YouTube video) to a video of you presenting (~10 minutes). 
-  > It doesn't need to be this content, the important is to show your presenter skills
-
-A mentor will get back to you with the information on the process.
-
 ## Trained Presenters
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
